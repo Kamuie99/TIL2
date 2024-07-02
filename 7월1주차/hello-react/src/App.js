@@ -1,10 +1,7 @@
-import './App.css'
+import Say from './Say';
 
-function App() {
-  const name = '최지우'
-  return (
-    <div className="react">{name}</div>
-  );
-}
+const App = () => {
+  return <Say />;
+};
 
 export default App;
