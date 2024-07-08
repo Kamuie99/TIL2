@@ -7,7 +7,7 @@ const Counter = ({ number, onIncrease, onDecrease }) => {
         <button onClick={onDecrease}>-1</button>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Counter;
